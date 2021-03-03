@@ -2,7 +2,7 @@
 *Tsai Eugene*
 
 ***
-##Contacts
+## Contacts
 phone: +375(44)7009019
 
 email: tsai.evgenii@gmail.com
@@ -10,14 +10,14 @@ email: tsai.evgenii@gmail.com
 [Linkedin](https://www.linkedin.com/in/yauhen-tsai-55b0691a1/)
 
 ***
-##About myself
+## About myself
 
 ***
-##Skills
+## Skills
 PHP MySQL, Magento, JQuery, knockout, underscore
 
 ***
-##Samples of code
+## Samples of code
 ```javascript
 function factorial(n) {
   if (n < 0 || n > 12)
@@ -50,11 +50,12 @@ $bootstrap->run($app);
 ```
 
 ***
-##Education
+## Education
 SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL, 2012, Mechanical Engineering
 
 ***
-#####Certificates:
+##### Certificates:
+
 [Zend Certified Engineer](https://www.zend-zce.com/en/yellow-pages/ZEND031806)
 
 [M2 Professional Developer](https://www.youracclaim.com/badges/572bf903-1ef2-42c1-a878-eab79329607c?source=linked_in_profile)
@@ -62,6 +63,6 @@ SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL, 2012, Mechanical Engineering
 [M2 JavaScript Developer](https://www.youracclaim.com/badges/1892b4ed-bd68-4949-ab96-326faeb9c84e?source=linked_in_profile)
 
 ***
-##English
+## English
 Intermediate
 
