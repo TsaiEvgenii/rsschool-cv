@@ -11,6 +11,7 @@ email: tsai.evgenii@gmail.com
 
 ***
 ## About myself
+I have worked as a PHP developer (Magento) last 4 years. Before it, I worked as an engineer for more than 8 years I like to find some new ways to study and structure my current knowledge. 
 
 ***
 ## Skills
