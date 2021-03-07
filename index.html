@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tsai Eugene CV</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tsai Eugene's CV for rs.school">
+    <meta name="keywords" content="VC, Tsai, rsschool, js, front-end">
+    <link href="stylesheets/main.css" rel="stylesheet"/>
+</head>
+<body>
+<main>
+    <header>
+        <h1>Tsai Eugene</h1>
+        <h2>PHP developer, Junior Frontend/JS developer</h2>
+    </header>
+    <section id="contacts">
+        <h3>Contacts</h3>
+        <div class="inline" id="photo">
+            <img src="images/Tsai_Eugene_150.jpg" alt="Tsai Eugene's photo">
+        </div>
+        <div class="inline">
+            <ul>
+                <li><a href="mailto:tsai.evgenii@gmail.com">tsai.evgenii@gmail.com</a></li>
+                <li>+375(44)7009019</li>
+                <li><a href="https://www.linkedin.com/in/yauhen-tsai-55b0691a1/">Linkedin</a></li>
+            </ul>
+        </div>
+    </section>
+    <hr/>
+    <section id="about-myself">
+        <h3>About myself</h3>
+        I have worked as a PHP developer (Magento) last 4 years. Before it, I worked as an engineer for more than 8
+        years I like to find some new ways to study and structure my current knowledge.
+    </section>
+    <hr/>
+    <section id="skills">
+        <h3>Skills</h3>
+        <ul>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Magento</li>
+            <li>JQuery</li>
+            <li>knockout</li>
+            <li>underscore</li>
+        </ul>
+    </section>
+    <hr/>
+    <section id="samples-of-code">
+        <h3>Samples of code</h3>
+        <pre>
+            JavaScript
+            <code>
+                function factorial(n) {
+                if (n < 0 || n > 12)
+                throw new RangeError();
+                return n <= 1 ? 1 : n * factorial(n - 1);
+                }
+            </code>
+            PHP
+            <code>
+                $params = $_SERVER;
+                $params[Bootstrap::INIT_PARAM_FILESYSTEM_DIR_PATHS] = array_replace_recursive(
+                    $params[Bootstrap::INIT_PARAM_FILESYSTEM_DIR_PATHS] ?? [],
+                    [
+                        DirectoryList::PUB => [DirectoryList::URL_PATH => ''],
+                        DirectoryList::MEDIA => [DirectoryList::URL_PATH => 'media'],
+                        DirectoryList::STATIC_VIEW => [DirectoryList::URL_PATH => 'static'],
+                        DirectoryList::UPLOAD => [DirectoryList::URL_PATH => 'media/upload'],
+                    ]
+                );
+                $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $params);
+                /** @var \Magento\Framework\App\Http $app */
+                $app = $bootstrap->createApplication(\Magento\Framework\App\Http::class);
+                $bootstrap->run($app);
+            </code>
+        </pre>
+    </section>
+    <hr/>
+    <section id="education">
+        <h3>Education</h3>
+        <p id="university">University - SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL, 2012, Mechanical Engineering</p>
+        <p>Certificates</p>
+        <ul>
+            <li><a href="https://www.zend-zce.com/en/yellow-pages/ZEND031806">Zend Certified Engineer</a></li>
+            <li><a href="https://www.youracclaim.com/badges/572bf903-1ef2-42c1-a878-eab79329607c?source=linked_in_profile">M2 Professional Developer</a> </li>
+            <li><a href="https://www.youracclaim.com/badges/1892b4ed-bd68-4949-ab96-326faeb9c84e?source=linked_in_profile">M2 JavaScript Developer</a> </li>
+        </ul>
+    </section>
+    <hr/>
+    <section id="english">
+        <h3>English</h3>
+        Level of English - B1
+    </section>
+    <footer>
+        <p>&copy; 2021 Tsai Eugene - <a href="mailto:tsai.evgenii@gmail.com">tsai.evgenii@gmail.com</a> - <a href="">github</a>
+            - <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="50px"
+                                                   alt="Курс «JavaScript/Front-end»"></a></p>
+    </footer>
+</main>
+</body>
+</html>
