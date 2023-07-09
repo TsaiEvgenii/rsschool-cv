@@ -1,8 +1,139 @@
 body {
     margin: auto;
     width: 1024px;
+    /*padding: 10px;*/
+    background-color: whitesmoke;
+    font-size: 16px;
+    font-family: "Arial";
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background: #829985;
+}
+.navigation{
+    display: block;
+    height: 100%;
+}
+.navigation .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation .list .item {
+    font-size: 16px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    line-height: 50px;
+    padding: 0;
+}
+
+.navigation .list .item a{
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.navigation .list .item a:hover{
+    color: lightgrey;
+}
+
+.main {
+    width: 100%;
+
+}
+
+.container {
+    display: flex;
+}
+
+.container.space-between{
+    justify-content: space-between;
+}
+
+.container.space-around{
+    justify-content: space-around;
+}
+
+.container .column {
+}
+
+.photo {
+    border-radius: 50%;
+}
+#about-me .info{
+    display: flex;
+    margin: 10px 0;
+}
+
+#about-me .info .info-photo{
+}
+
+#about-me .info .info-title{
+
+}
+
+.wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+.left,
+.right {
+    flex: 1 0 40%;
     padding: 10px;
-    background-color: #ebebeb;
-    font-size: 12px;
-    font-family: "Times New Roman";
+}
+
+.info-title{
+    padding: 20px;
+
+}
+
+.footer {
+    background-color: #829985;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./media/img/svg/rss.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-list .item {
+    list-style: none;
+    flex: 0 0 32.333333%;
+    background-color: #829985;
+    margin: 1px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #829985;
+    overflow: hidden;
 }
